@@ -54,7 +54,6 @@ subcommand_context_no_interspersion["allow_interspersed_args"] = False
     help="Output diagnostic information for use in GitHub issues.",
 )
 @general_options
-@version_option(prog_name=crayons.normal("pipenv", bold=True), version=__version__)
 @pass_state
 @pass_context
 def cli(
